@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Base styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: #f4f4f4;
+        }
+
+        .hero h1 {
+            margin: 0 0 20px;
+        }
+
+        .hero .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            background: #fff;
+        }
+
+        .feature {
+            text-align: center;
+            flex: 1 1 300px;
+            margin: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to Our Landing Page</h1>
+            <p>Your success starts here</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <h2>Feature 1</h2>
+                <p>Details about feature 1.</p>
+            </div>
+            <div class="feature">
+                <h2>Feature 2</h2>
+                <p>Details about feature 2.</p>
+            </div>
+            <div class="feature">
+                <h2>Feature 3</h2>
+                <p>Details about feature 3.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 samata. All rights reserved.</p>
+    </footer>
+</body>
+</html>
